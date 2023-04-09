@@ -1,0 +1,1 @@
+export default ['freelance', 'synopsys', 'tnine']
