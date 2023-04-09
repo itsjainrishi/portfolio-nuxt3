@@ -31,10 +31,10 @@ const { data } = await useAsyncData('home', () => queryContent('/').findOne());
             </div>
           </div>
           <div class="social-icons my-8 xl:my-12 text-xl xl:text-3xl text-secondary">
-            <a aria-label="Github" class="mr-4 xl:mr-6" :href="data.github">
+            <a aria-label="Github" class="mr-4 xl:mr-6" :href="data.github" target="_blank">
               <i class="icon-github font-icomoon before:content-['\eab0']"></i>
             </a>
-            <a aria-label="Linkedin" class="mr-4 xl:mr-6" :href="data.linkedin">
+            <a aria-label="Linkedin" class="mr-4 xl:mr-6" :href="data.linkedin" target="_blank">
               <i class="icon-linkedin font-icomoon before:content-['\eac9']"></i>
             </a>
           </div>
