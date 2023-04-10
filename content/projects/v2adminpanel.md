@@ -1,7 +1,7 @@
 ---
 title: 'MepTrade Supplies Ltd. V2 Admin Panel'
 github: ''
-external: 'https://meptradesupplies.com/admin/'
+external: 'https://meptradesupplies.com/dashboard/'
 image: 'mepv2admin.webp'
 tech:
   - Vue3
