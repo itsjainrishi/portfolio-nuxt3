@@ -5,6 +5,7 @@ external: 'https://meptradesupplies.com/'
 image: 'mepv2.webp'
 tech:
   - Vue3
+  - Typescript
   - Vite
   - Pinia
   - TailwindCSS
