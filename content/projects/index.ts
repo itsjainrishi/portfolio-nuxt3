@@ -1,1 +1,1 @@
-export default ['meptradesuppliesv1', 'adminpanel', 'meptradesuppliesv2']
+export default ['meptradesuppliesv1', 'v2adminpanel', 'meptradesuppliesv2']
