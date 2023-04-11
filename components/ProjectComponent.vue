@@ -10,7 +10,7 @@ const props = defineProps({
       <div class="col-span-full col-start-1 col-span-4 lg:row-span-full lg:col-start-1 lg:col-span-4 xlg:col-start-1 xlg:col-span-6">
         <div class="project-image">
           <a :href="item.external" class="cursor-pointer" target="_blank">
-            <img class="w-full" :src="`./${item.image}`" />
+            <img class="w-full" :src="`/${item.image}`" />
           </a>
         </div>
       </div>
