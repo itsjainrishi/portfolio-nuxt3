@@ -9,6 +9,7 @@ linkedin: 'https://www.linkedin.com/in/jainrishi09/'
 angellist: 'https://angel.co/jainrishi09'
 skills:
   - Javascript (ES6+)
+  - Typescript
   - HTML & (S)CSS
   - Tailwind CSS
   - Node.js
