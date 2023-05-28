@@ -5,7 +5,6 @@ external: 'https://cee.netlify.app/'
 image: 'cee.webp'
 tech:
   - Nuxt3
-  - Typescript
   - Vite
   - TailwindCSS
   - Contentful
