@@ -8,12 +8,12 @@ github: 'https://github.com/itsjainrishi/'
 linkedin: 'https://www.linkedin.com/in/jainrishi09/'
 angellist: 'https://angel.co/jainrishi09'
 skills:
-  - Javascript (ES6+)
-  - HTML & (S)CSS
-  - Tailwind CSS / Bulma / Bootstrap
-  - Node.js / Express
   - Vue 2/3
   - Nuxt 2/3
+  - Tailwind CSS / Bulma / Bootstrap
+  - Javascript (ES6+)
+  - HTML & (S)CSS
+  - Node.js / Express
   - Python / Django
   - Firebase
   - Goggle Cloud Engine
