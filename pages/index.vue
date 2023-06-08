@@ -3,7 +3,7 @@ const { data } = await useAsyncData('home', () => queryContent('/').findOne());
 </script>
 
 <template>
-  <div class="container p-4 lg:py-10 h-min-screen">
+  <div class="container p-4 lg:pt-10 h-min-screen">
     <div class="basic-info">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
         <div class="col-span-1">
