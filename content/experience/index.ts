@@ -1,1 +1,1 @@
-export default ['freelance', 'synopsys', 'tnine']
+export default ['freelance', 'synopsys', 'tnine-contract', 'tnine']
