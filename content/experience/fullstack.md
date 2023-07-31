@@ -1,5 +1,6 @@
 ---
-title: 'Freelance'
+title: 'FullStack Developer(Contract)'
+company: 'Novel Digital'
 time: 'May 20 - Present'
 ---
 
