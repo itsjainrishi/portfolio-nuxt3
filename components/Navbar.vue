@@ -68,7 +68,7 @@ onClickOutside(target, () => {
             Experience
           </nuxt-link>
           <nuxt-link class="navbar-item work p-3 xl:py-4 ml-3 mr-auto lg:mx-auto" to="/work">Work</nuxt-link>
-          <a class="navbar-item resume p-3 xl:py-4 ml-3 mr-auto lg:mx-auto" href="/Resume.pdf" download>
+          <a class="navbar-item resume p-3 xl:py-4 ml-3 mr-auto lg:mx-auto" href="/RishiJain_CV.pdf" download>
             <button
               class="btn-resume text-primary border xl:border-2 border-primary text-sm xl:text-xl p-2 xl:p-4 rounded xl:rounded-lg"
             >
