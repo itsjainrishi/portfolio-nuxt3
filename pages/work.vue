@@ -4,7 +4,7 @@ const { data: projects } = await useAsyncData('work', () => queryContent('projec
 </script>
 
 <template>
-  <div class="lg:container p-4 lg:px-0 lg:py-10">
+  <div class="lg:container mx-auto p-4 lg:px-0 lg:py-10">
     <section class="projects-container">
       <div>
         <div class="flex items-center gap-4 mb-6 lg:mb-12">

@@ -3,7 +3,7 @@ const { data: jobs } = await useAsyncData('experience', () => queryContent('expe
 </script>
 
 <template>
-  <div class="lg:container p-4 lg:px-0 lg:py-10">
+  <div class="lg:container mx-auto p-4 lg:px-0 lg:py-10">
     <section class="experience relative">
       <div class="flex items-center gap-4 mb-6 lg:mb-12">
         <h3 class="text-2xl text-secondary">Work Experience</h3>

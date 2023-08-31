@@ -38,7 +38,7 @@ onClickOutside(target, () => {
           <img
             alt="R"
             class="h-10 xl:h-12"
-            src="~/assets/R.svg"
+            src="/pwa.png"
             @click="closeNavbar"
           />
         </nuxt-link>
@@ -64,7 +64,7 @@ onClickOutside(target, () => {
         ]"
       >
         <div
-          class="flex flex-col lg:flex-row text-secondary xl:text-xl items-center"
+          class="flex flex-col lg:flex-row xl:text-xl items-center"
           @click="closeNavbar"
         >
           <nuxt-link class="navbar-item experience p-3 xl:py-4 ml-3 mr-auto lg:mx-auto" to="/experience">
