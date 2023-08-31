@@ -21,22 +21,14 @@ const randomColor = () => {
 
 <template>
   <article class="timeline-box relative mt-1 mt-6 mb-5">
-    <div class="timeline-box-inner">
-      <div
-        :style="basicStyle"
-        class="timeline-icon h-10 w-10 float-left text-center icon-shadow rounded-[50%] !leading-10" 
-      >
-        <i class="icon-pen2 text-white before:content-['\e906']"></i>
-      </div>
-      <div class="timeline-label relative p-4 ml-16 bg-[#0c0e11] text-tertiary">
-        <h2 class="text-xl xl:text-2xl mb-7">
-          {{ item.title }}
-          <span class="org text-[#64ffda]">{{ item.company }}</span>
-          <span class="time text-base opacity-[0.6]">&nbsp;{{ item.time }}</span>
-        </h2>
-        <div class="description xl:text-xl">
-          <ContentRendererMarkdown :value="item" />
-        </div>
+    <div class="timeline-label relative p-4 bg-white text-primary shadow-circle">
+      <h2 class="text-xl xl:text-2xl mb-7">
+        {{ item.title }}
+        <span class="org text-[#64ffda] text-secondary">{{ item.company }}</span>
+        <span class="time text-base opacity-[0.6]">&nbsp;{{ item.time }}</span>
+      </h2>
+      <div class="description xl:text-xl">
+        <ContentRendererMarkdown :value="item" />
       </div>
     </div>
   </article>

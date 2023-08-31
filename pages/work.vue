@@ -1,14 +1,16 @@
 <script setup>
 const { data: funProjects } = await useAsyncData('fwork', () => queryContent('funprojects').where({ active: true }).find());
 const { data: projects } = await useAsyncData('work', () => queryContent('projects').find());
-console.log(funProjects)
 </script>
 
 <template>
-  <div class="container p-4 lg:py-10">
+  <div class="lg:container p-4 lg:px-0 lg:py-10">
     <section class="projects-container">
       <div>
-        <h3 class="heading text-3xl xl:text-4xl text-secondary mb-8 lg:mb-20">Some Things I've Built</h3>
+        <div class="flex items-center gap-4 mb-6 lg:mb-12">
+          <h3 class="text-2xl text-secondary">Some Things I've Built</h3>
+          <div class="h-px flex-grow max-w-xs bg-blue-100"></div>
+        </div>
         <div
           v-for="project in projects"
           :key="project.title"
@@ -19,7 +21,10 @@ console.log(funProjects)
       </div>
 
       <div class="side-projects mt-28">
-        <h3 class="heading text-3xl xl:text-4xl text-secondary mb-8 lg:mb-20">Side Projects</h3>
+        <div class="flex items-center gap-4 mb-6 lg:mb-12">
+          <h3 class="text-2xl text-secondary">Side Projects</h3>
+          <div class="h-px flex-grow max-w-xs bg-blue-100"></div>
+        </div>
         <div
           v-for="project in funProjects"
           :key="project.title"

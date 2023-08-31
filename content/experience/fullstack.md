@@ -1,14 +1,12 @@
 ---
-title: 'FullStack Developer(Contract)'
-company: 'Novel Digital'
+title: 'FullStack Developer @'
+company: 'Freelance'
 time: 'May 20 - Present'
 ---
 
-- Developed user interfaces for a B2B ecommerce platform using Nuxt2, Tailwind2, Firebase, Material Design 2 and Rest API.
-- Developed Backend System using Firebase, Bigcommerce.
-- Collaborated with UX design team to create user-friendly Vue.js interfaces for B2B ecommerce platform using Vue3 Composition API, Typescript, Tailwind3, Material Design 3 and Graphql.
-- Integration with Algolia to facilitate instant search.
-- Implemented new features to Saleor Ecommerce Platform based on requirements.
-- Developed integrations with Zoho One Suite using Python.
-- Optimized website load times by implementing lazy loading techniques.
-- Developed Admin Panel using Vue 3 Composition API, Tailwind 3, Graphql.
+- Collaborated with designers and developers to create user friendly interfaces and data interactions for 6 client applications.
+- Developed and deployed business websites.
+- Developed RestApi’s and Graphql Api’s.
+- Developed Backend Systems using Firebase, cloud functions and Django.
+- Implemented a streamlined data transfer process between Zoho One Suite and other tools.
+- Development with various Headless CMS tools for business websites.

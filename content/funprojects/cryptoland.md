@@ -2,7 +2,7 @@
 active: true
 title: 'CryptoLand'
 github: 'https://github.com/itsjainrishi/cryptoland'
-external: 'http://cryptoland.netlify.app'
+external: 'https://cryptolland.netlify.app/'
 image: 'cryptoland.webp'
 tech:
   - React

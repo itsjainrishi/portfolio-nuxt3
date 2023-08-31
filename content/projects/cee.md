@@ -5,10 +5,9 @@ external: 'https://cee.netlify.app/'
 image: 'cee.webp'
 tech:
   - Nuxt3
-  - Vite
   - TailwindCSS
   - Contentful
   - Netlify Form
 ---
 
-A website for Control Electric Engineers Ltd which is based in London UK.
+A business website for Control Electric Engineers Ltd which is based in London UK.

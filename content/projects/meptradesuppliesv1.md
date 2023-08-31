@@ -13,4 +13,4 @@ tech:
   - Algolia
 ---
 
-A B2B ecommerce application for MepTradeSupplies Ltd. which is based in London UK.
+An ecommerce application for MepTradeSupplies Ltd. which is based in London UK.

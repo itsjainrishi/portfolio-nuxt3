@@ -1,11 +1,11 @@
 <script setup>
 useHead({
-  title: 'Rishi Jain | Software Engineer',
+  title: 'Rishi Jain | Fullstack Engineer',
   link: [
     {
       rel: 'stylesheet',
       href:
-        'https://fonts.googleapis.com/css?family=Kulim+Park&display=swap'
+        'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap'
     }
   ]
 })
@@ -41,7 +41,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: #202630;
+  color: #333333;
+  background-color: #f9f9f9;
 }
 
 @font-face {
@@ -73,7 +74,7 @@ html {
 }
 
 body {
-  font-family: 'Kulim Park', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 *,
@@ -114,13 +115,23 @@ body {
 
 .container {
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 .main {
   width: 100%;
   padding: 150px 0px;
+}
+
+.shadow-circle {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.shadow-project-img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 @keyframes fadeInTop {
