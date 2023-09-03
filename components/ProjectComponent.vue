@@ -37,7 +37,7 @@ const props = defineProps({
                 </li>
               </ul>
             </div>
-            <div class="project-link mt-4">
+            <div class="project-link mt-4 flex items-center gap-6 justify-center">
               <div>
                 <a
                   class="flex items-center justify-center gap-2 text-xl"
@@ -61,6 +61,17 @@ const props = defineProps({
                     <polyline points="15 3 21 3 21 9"></polyline>
                     <line x1="10" y1="14" x2="21" y2="3"></line>
                   </svg>
+                </a>
+              </div>
+              <div v-if="item.github">
+                <a
+                  class="flex items-center justify-center gap-2 text-xl"
+                  aria-label="Github"
+                  :href="item.github"
+                  target="_blank"
+                >
+                  Code
+                  <i class="icon-github text-xl lg:text-2xl font-icomoon before:content-['\eab0']"></i>
                 </a>
               </div>
             </div>
